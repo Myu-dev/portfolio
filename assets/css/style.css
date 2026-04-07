@@ -1,21 +1,23 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 body{
-    background-color: linear-gradient(160deg,#a78bfa,#f0abfc,#fde2ff);
-    color: white;
-    overflow-x: hidden;
+  background-color: linear-gradient(160deg,#a78bfa,#f0abfc,#fde2ff);
+  color: white;
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
 }
 
 .icon{
-    width: 180px;
-    border-radius: 50%;
-    box-shadow: 0 0 30px rgba(255,255,255,0.6);
-    margin: 20px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  box-shadow: 0 0 30px rgba(255,255,255,0.6);
+  margin: 20px;
 }
 
 /* 星のスタイル */
