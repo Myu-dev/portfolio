@@ -6,7 +6,7 @@
 }
 
 body{
-  background-color: linear-gradient(160deg,#a78bfa,#f0abfc,#fde2ff);
+  background: linear-gradient(160deg,#a78bfa,#f0abfc,#fde2ff);
   color: white;
   overflow-x: hidden;
   width: 100vw;
@@ -26,7 +26,7 @@ body{
   display: block;
   background-color: #fff; /* 星の色 */
   border-radius: 50%;
-  box-shadow: 0 0 4px 2px rgba(#fff, 0.2); /* 星の影 */
+  box-shadow: 0 0 4px 2px rgba(255,255,255, 0.2); /* 星の影 */
   opacity: 0;
   animation: twinkle 5s infinite;
 }
