@@ -13,11 +13,32 @@ body{
   height: 100vh;
 }
 
+.container{
+  text-align: center;
+  margin: auto;
+  padding: 120px 20px 60px;
+}
+
 .icon{
   aspect-ratio: 1/1;
   border-radius: 50%;
   box-shadow: 0 0 30px rgba(255,255,255,0.6);
   margin: 20px;
+}
+
+.grid{
+  display: grid;
+}
+
+.box{
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.card{
+  background:rgba(255,255,255,0.15);
+  backdrop-filter: blur(10px);
 }
 
 /* 星のスタイル */
