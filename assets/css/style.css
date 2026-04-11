@@ -6,7 +6,7 @@
 }
 
 body{
-  backgroud:linear-gradient(160deg,#a78bfa,#f0abfc,#fde2ff);
+  background:linear-gradient(160deg,#a78bfa,#f0abfc,#fde2ff);
   color: white;
   overflow-x: hidden;
   width: 100vw;
