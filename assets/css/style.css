@@ -5,8 +5,12 @@
   font-family: sans-serif;
 }
 
+html,body{
+  height: 100%;
+  backgroud:linear-gradient(160deg,#a78bfa,#f0abfc,#fde2ff);;
+}
+
 body{
-  background: linear-gradient(160deg,#a78bfa,#f0abfc,#fde2ff);
   color: white;
   overflow-x: hidden;
   width: 100vw;
@@ -65,4 +69,8 @@ body{
     opacity: 0;
     transform: scale(1);
   }
+}
+
+.flex{
+  display: flex;
 }
