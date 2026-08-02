@@ -1,3 +1,13 @@
+:root{
+  --bg-dark: #0a0c14;
+  --bg-dark-2: #12162a;
+  --cyan: #22d3ee;
+  --blue: #6366f1;
+  --purple: #a855f7;
+  --pink: #ec4899;
+  --accent-gradient: linear-gradient(120deg, var(--cyan), var(--blue), var(--purple), var(--pink));
+}
+
 *{
   margin: 0;
   padding: 0;
