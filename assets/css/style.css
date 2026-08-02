@@ -6,8 +6,11 @@
 }
 
 body{
-  background:linear-gradient(160deg,#a78bfa,#f0abfc,#fde2ff);
-  color: white;
+  background:radial-gradient(circle at 15% 10%, rgba(34,211,238,0.18), transparent 40%),
+    radial-gradient(circle at 85% 15%, rgba(236,72,153,0.16), transparent 45%),
+    radial-gradient(circle at 50% 100%, rgba(168,85,247,0.15), transparent 50%),
+    linear-gradient(160deg, var(--bg-dark), var(--bg-dark-2));
+  color: #e6e8f5;
   overflow-x: hidden;
   width: 100vw;
   height: 100%;
@@ -60,13 +63,13 @@ footer{
 
 
 
-/* 星のスタイル */
+/* 星のスタイル
 .star{
   position: absolute;
   display: block;
-  background-color: #fff; /* 星の色 */
+  background-color: #fff;
   border-radius: 50%;
-  box-shadow: 0 0 4px 2px rgba(255,255,255, 0.2); /* 星の影 */
+  box-shadow: 0 0 4px 2px rgba(255,255,255, 0.2);
   opacity: 0;
   animation: twinkle 5s infinite;
 }
@@ -89,3 +92,4 @@ footer{
 .flex{
   display: flex;
 }
+*/
